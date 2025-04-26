@@ -56,6 +56,32 @@ ng serve -o
 ===============================
 ===========          ==========
 ===============================
+Consejos adicionales
+1. Para otros elementos: El flag --skip-tests también funciona con:
+ng g service nombre-del-servicio --skip-tests
+ng g directive nombre-de-la-directiva --skip-tests
+ng g pipe nombre-del-pipe --skip-tests
+
+
+2. Si ya tienes un proyecto: Puedes eliminar todos los archivos .spec existentes con:
+find src -name "*.spec.ts" -type f -delete
+
+
+
+===============================
+===========          ==========
+===============================
+
+
+
+
+
+===============================
+===========          ==========
+===============================
+
+
+
 
 
 
