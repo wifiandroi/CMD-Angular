@@ -70,17 +70,78 @@ mi-proyecto/
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ::::::::::::::::::::::::::                 ::::::::::::::::::::::::::::::
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Estructura Base de un Proyecto Angular 19
 
-
+mi-proyecto-angular/
+├── .angular/                # Cache de construcción (generado automáticamente)
+├── .vscode/                 # Configuraciones específicas de VS Code (opcional)
+├── node_modules/            # Dependencias instaladas (generado automáticamente)
+├── src/                     # Código fuente principal
+│   ├── app/                 # Módulos y componentes de la aplicación
+│   │   ├── components/      # Componentes reutilizables
+│   │   ├── services/        # Servicios
+│   │   ├── models/          # Modelos/interfaces de datos
+│   │   ├── guards/          # Guards de rutas
+│   │   ├── interceptors/    # Interceptores HTTP
+│   │   ├── pipes/           # Pipes personalizados
+│   │   ├── directives/      # Directivas personalizadas
+│   │   ├── pages/           # Componentes de páginas (opcional)
+│   │   ├── shared/          # Módulos/componenetes compartidos
+│   │   ├── app.component.ts # Componente raíz
+│   │   ├── app.module.ts    # Módulo raíz
+│   │   └── app-routing.module.ts # Configuración de rutas
+│   ├── assets/              # Archivos estáticos (imágenes, fuentes, etc.)
+│   ├── environments/        # Configuraciones de entorno
+│   │   ├── environment.ts          # Desarrollo
+│   │   └── environment.prod.ts     # Producción
+│   ├── styles/              # Estilos globales (opcional)
+│   ├── favicon.ico          # Icono de la aplicación
+│   ├── index.html           # Página HTML principal
+│   ├── main.ts              # Punto de entrada de la aplicación
+│   └── ...                  # Otros archivos de configuración
+├── .browserslistrc          # Configuración de compatibilidad con navegadores
+├── .editorconfig            # Configuración de estilo de código
+├── .eslintrc.json           # Configuración de ESLint
+├── .gitignore               # Archivos ignorados por Git
+├── angular.json             # Configuración del workspace de Angular CLI
+├── package.json             # Dependencias y scripts
+├── tsconfig.json            # Configuración de TypeScript
+└── README.md                # Documentación del proyecto
 
 
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ::::::::::::::::::::::::::                 ::::::::::::::::::::::::::::::
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Estructura recomendada para aplicaciones grandes
+Para proyectos más grandes, se recomienda una estructura por módulos de funcionalidad:
 
-
-
+src/app/
+├── core/                    # Servicios/core que se cargan una sola vez
+│   ├── services/            # Servicios singleton
+│   ├── interceptors/        # Interceptores globales
+│   └── core.module.ts       # Módulo core
+├── shared/                  # Componentes/directivas/pipes compartidos
+│   ├── components/          # Componentes reutilizables
+│   ├── pipes/               # Pipes compartidos
+│   ├── directives/          # Directivas compartidas
+│   └── shared.module.ts     # Módulo compartido
+├── features/                # Módulos de funcionalidad (lazy-loaded)
+│   ├── auth/                # Ejemplo: módulo de autenticación
+│   │   ├── components/      # Componentes específicos de auth
+│   │   ├── services/        # Servicios específicos de auth
+│   │   ├── models/          # Modelos específicos de auth
+│   │   ├── auth-routing.module.ts # Rutas de auth
+│   │   └── auth.module.ts   # Módulo de auth
+│   └── dashboard/           # Ejemplo: módulo del dashboard
+│       ├── components/      # Componentes del dashboard
+│       ├── pages/           # Páginas del dashboard
+│       ├── services/        # Servicios del dashboard
+│       ├── dashboard-routing.module.ts # Rutas del dashboard
+│       └── dashboard.module.ts # Módulo del dashboard
+├── app.component.ts         # Componente raíz
+├── app.module.ts            # Módulo raíz
+└── app-routing.module.ts    # Rutas principales
 
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
