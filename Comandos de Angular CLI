@@ -7,11 +7,43 @@ ng generate component <ruta/nombre-del-componente> (o ng g c <ruta/nombre-del-co
 ng serve -o: Construye y sirve la aplicación Angular, abriéndola en el navegador.
 mkdir <ruta/de/la/carpeta>: Comando estándar de la terminal para crear directorios (carpetas).
 
+
 ===============================
 ===========          ==========
 ===============================
 
+1. Crear un Nuevo Proyecto Angular (opcional):
+ng new captcha-app
+cd captcha-app
 
+
+2. Crear la Carpeta de Interfaces:
+mkdir src/app/interfaces
+
+
+3. Crear los Archivos de Interfaces (dentro de src/app/interfaces):
+register-app-request.ts (crear el archivo manualmente o con tu IDE)
+register-app-response.ts (crear el archivo manualmente o con tu IDE)
+
+
+4. Crear la Carpeta de Servicios:
+mkdir src/app/services
+
+
+5. Crear el Servicio CaptchaService:
+ng generate service services/captcha
+
+
+6. Crear la Carpeta de Componentes:
+mkdir src/app/components
+
+
+7. Crear el Componente register-app:
+ng generate component components/register-app
+
+
+8. Ejecutar la Aplicación Angular:
+ng serve -o
 
 ===============================
 ===========          ==========
