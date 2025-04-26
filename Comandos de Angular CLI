@@ -1,0 +1,8 @@
+Resumen de los Comandos de Angular CLI:
+
+ng new <nombre-del-proyecto>: Crea un nuevo proyecto Angular.
+cd <nombre-del-proyecto>: Cambia el directorio actual a la carpeta del proyecto.
+ng generate service <ruta/nombre-del-servicio> (o ng g s <ruta/nombre-del-servicio>): Genera un nuevo servicio.
+ng generate component <ruta/nombre-del-componente> (o ng g c <ruta/nombre-del-componente>): Genera un nuevo componente.
+ng serve -o: Construye y sirve la aplicación Angular, abriéndola en el navegador.
+mkdir <ruta/de/la/carpeta>: Comando estándar de la terminal para crear directorios (carpetas).
