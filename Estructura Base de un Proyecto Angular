@@ -1,0 +1,120 @@
+
+
+mi-proyecto/
+├── e2e/                         # Pruebas end-to-end
+├── node_modules/                # Dependencias del proyecto
+├── src/
+│   ├── app/
+│   │   ├── core/                # Servicios y lógica central
+│   │   ├── data/                # Modelos y servicios de datos
+│   │   ├── layout/              # Componentes de diseño (header, footer)
+│   │   ├── modules/             # Módulos específicos de la aplicación
+│   │   └── shared/              # Componentes y servicios reutilizables
+│   ├── assets/                  # Archivos estáticos (imágenes, fuentes)
+│   ├── environments/            # Configuraciones por entorno (dev, prod)
+│   ├── index.html               # Página principal
+│   ├── main.ts                  # Punto de entrada de la aplicación
+│   ├── polyfills.ts             # Compatibilidad con navegadores antiguos
+│   ├── styles.scss              # Estilos globales
+│   └── test.ts                  # Configuración de pruebas unitarias
+├── .editorconfig                # Configuración del editor
+├── .gitignore                   # Archivos a ignorar por Git
+├── angular.json                 # Configuración del proyecto Angular
+├── karma.conf.js                # Configuración de Karma para pruebas
+├── package.json                 # Dependencias y scripts del proyecto
+├── package-lock.json            # Versiones exactas de las dependencias
+├── README.md                    # Documentación del proyecto
+├── tsconfig.app.json            # Configuración de TypeScript para la app
+├── tsconfig.json                # Configuración global de TypeScript
+└── tsconfig.spec.json           # Configuración de TypeScript para pruebas
+
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::                 ::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
+mi-proyecto/
+├── e2e/                         # Pruebas end-to-end
+├── node_modules/                # Dependencias del proyecto
+├── src/
+│   ├── app/
+│   │   ├── core/                # Servicios y lógica central
+│   │   ├── features/            # Funcionalidades específicas del negocio
+│   │   ├── shared/              # Componentes y servicios reutilizables
+│   │   ├── app.component.ts     # Componente raíz
+│   │   ├── app.routes.ts        # Rutas de la aplicación
+│   │   └── app.config.ts        # Configuración de la aplicación
+│   ├── assets/                  # Archivos estáticos (imágenes, fuentes)
+│   ├── environments/            # Configuraciones por entorno (dev, prod)
+│   ├── index.html               # Página principal
+│   ├── main.ts                  # Punto de entrada de la aplicación
+│   ├── polyfills.ts             # Compatibilidad con navegadores antiguos
+│   ├── styles.scss              # Estilos globales
+│   └── test.ts                  # Configuración de pruebas unitarias
+├── .editorconfig                # Configuración del editor
+├── .gitignore                   # Archivos a ignorar por Git
+├── angular.json                 # Configuración del proyecto Angular
+├── karma.conf.js                # Configuración de Karma para pruebas
+├── package.json                 # Dependencias y scripts del proyecto
+├── package-lock.json            # Versiones exactas de las dependencias
+├── README.md                    # Documentación del proyecto
+├── tsconfig.app.json            # Configuración de TypeScript para la app
+├── tsconfig.json                # Configuración global de TypeScript
+└── tsconfig.spec.json           # Configuración de TypeScript para pruebas
+
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::                 ::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::                 ::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::                 ::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::                 ::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::                 ::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::                 ::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::                 ::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
