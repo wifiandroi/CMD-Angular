@@ -6,3 +6,29 @@ ng generate service <ruta/nombre-del-servicio> (o ng g s <ruta/nombre-del-servic
 ng generate component <ruta/nombre-del-componente> (o ng g c <ruta/nombre-del-componente>): Genera un nuevo componente.
 ng serve -o: Construye y sirve la aplicación Angular, abriéndola en el navegador.
 mkdir <ruta/de/la/carpeta>: Comando estándar de la terminal para crear directorios (carpetas).
+
+===============================
+===========          ==========
+===============================
+
+
+
+===============================
+===========          ==========
+===============================
+
+
+
+
+
+===============================
+===========          ==========
+===============================
+
+
+
+
+===============================
+===========          ==========
+===============================
+
