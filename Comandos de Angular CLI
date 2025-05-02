@@ -48,6 +48,12 @@ ng generate component components/register-app
 8. Ejecutar la Aplicación Angular:
 ng serve -o
 
+9. Crear un archivo CLASS llamado <file-name>:
+ng generate class <file-name>
+
+10. Crear un archivo INTERFACE llamado <interface-name>:
+ng generate interface <interface-name>
+
 ===============================
 ===========          ==========
 ===============================
