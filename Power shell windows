@@ -1,0 +1,5 @@
+Solución de error
+Abre el power shell de windows y escribe:
+Set-ExecutionPolicy -Scope CurrentUser Unrestricted
+
+luego escribes: 'S'
