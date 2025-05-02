@@ -1,8 +1,10 @@
 Instalar PrimeNG y PrimeFlex  en Angular
 
 # https://v17.primeng.org/installation
+#https://primeng.org/installation
 #PrimeNG
 npm install primeng
+npm install primeng @primeng/themes
 
 #app.config.ts:
 #Agrega los import y provides:
