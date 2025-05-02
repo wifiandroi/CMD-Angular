@@ -53,6 +53,13 @@ ng generate class <file-name>
 
 10. Crear un archivo INTERFACE llamado <interface-name>:
 ng generate interface <interface-name>
+ng generate interface models/Cartera
+
+11. Para una enumeración:
+ng generate enum <enum-name>
+
+12. Para un módulo:
+ng generate module <module-name>
 
 ===============================
 ===========          ==========
