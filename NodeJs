@@ -1,0 +1,9 @@
+# Descarga e instala Node.js:
+https://nodejs.org/es/download
+
+# Verifica la versión de Node.js:
+node -v # Debería mostrar "v22.15.0".
+
+# Verifica versión de npm:
+npm -v # Debería mostrar "10.9.2".
+
