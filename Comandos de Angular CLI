@@ -1,4 +1,7 @@
 Resumen de los Comandos de Angular CLI:
+npm install -g @angular/cli  : Instalar Angular CLI.
+ng version : Para saber la versión de Angular.
+
 
 ng new <nombre-del-proyecto>: Crea un nuevo proyecto Angular.
 cd <nombre-del-proyecto>: Cambia el directorio actual a la carpeta del proyecto.
