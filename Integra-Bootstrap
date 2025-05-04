@@ -1,0 +1,13 @@
+#Instalar a través del administrador de paquetes
+npm i bootstrap@5.3.5
+
+#Importa la hoja de estilos y el JS necesario
+"styles": [
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+            ],
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
+
+
